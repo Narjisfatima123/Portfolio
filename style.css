@@ -1,0 +1,1686 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: orangered;
+}
+
+
+
+/* ////////////////////////////aside////////////////////// */
+.aside {
+    width: 22%;
+    position: fixed;
+    background-color: #222222;
+    height: 100%;
+    /* display: none; */
+}
+
+.aside .logo {
+    margin: 30px 60px;
+    height: 100px;
+}
+
+
+.aside nav {
+    margin: 90px 76px;
+
+
+}
+
+.aside nav ul {
+    list-style-type: none;
+
+}
+
+.aside nav ul li {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #424949;
+}
+
+.aside nav ul li a {
+    text-decoration: none;
+    font-family: poppins;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+.aside nav ul li a:active {
+    color: var(--main-color);
+}
+
+.aside nav ul li a:hover {
+    color: var(--main-color);
+}
+
+i {
+    margin-right: 10px;
+    color: white
+}
+
+/* //////////////////////////////main container///////////////////// */
+
+.main-container {
+    background-color: #151515;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.main-container h1 {
+    margin-left: 17rem;
+    color: white;
+    padding-top: 66px;
+    font-family: poppins;
+}
+
+.main-container h1 span {
+    color: var(--main-color);
+    font-family: dancing script;
+    padding-left: 11px;
+    font-size: 41px;
+}
+
+.main-container h2 {
+    margin-left: 282px;
+    color: white;
+    padding-top: 18px;
+    font-family: poppins;
+}
+
+.main-container h2 .auto-type {
+    color: var(--main-color);
+    padding-left: 6px;
+    word-spacing: 7px;
+}
+
+.main-container p {
+    margin-left: 282px;
+    color: white;
+    padding-top: 18px;
+    /* width: 400px; */
+    font-family: poppins;
+}
+
+.main-container button {
+    margin-left: 282px;
+    height: 40px;
+    width: 150px;
+    border-radius: 26px;
+    border: 1px solid var(--main-color);
+    margin-top: 41px;
+    background-color: var(--main-color);
+}
+
+.main-container button a {
+    text-decoration: none;
+    font-family: poppins;
+    color: white;
+    font-size: 15px;
+}
+
+.main-container img {
+
+    height: 281px;
+    margin-top: -100px;
+    margin-left: 550px;
+}
+
+.main-container i {
+    display: none;
+  
+
+}
+
+/* //////////////////// sec 2////////////////////// */
+.sec2 {
+
+    background-color: #151515;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.sec2 h2 {
+    margin-left: 282px;
+    color: white;
+    font-size: 37px;
+    /* padding-top: 74px; */
+    position: relative;
+    font-family: poppins;
+}
+
+.sec2 h2::before {
+    content: "";
+    height: 4px;
+    width: 13%;
+    background-color: var(--main-color);
+    position: absolute;
+    left: 0px;
+    bottom: -2px;
+}
+
+.sec2 h2::after {
+    content: "";
+    height: 3px;
+    width: 7%;
+    background-color: var(--main-color);
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+}
+
+.sec2 h3 {
+    margin-left: 282px;
+    color: white;
+    font-size: 25px;
+    padding-top: 43px;
+    font-family: poppins;
+}
+
+.sec2 h3 .color {
+    color: var(--main-color);
+}
+
+.sec2 p {
+    margin-left: 282px;
+    color: white;
+    font-size: 16px;
+    width: 70%;
+    padding-top: 15px;
+    font-family: poppins;
+}
+
+.sec2 .bio-data {
+    display: flex;
+}
+
+.sec2 .bio-data .left {
+    margin-left: 359px;
+    color: white;
+    font-family: poppins;
+    padding-top: 9px;
+}
+
+.sec2 .bio-data .right {
+    margin-left: 120px;
+    color: white;
+    font-family: poppins;
+    padding-top: 13px;
+}
+
+.sec2 .bio-data .left li {
+    list-style: none;
+    border-bottom: 1px solid #424949;
+    line-height: 33px;
+    word-spacing: 4px;
+    padding-left: 11px;
+}
+
+.sec2 .bio-data .right li {
+    list-style: none;
+    border-bottom: 1px solid #424949;
+    line-height: 33px;
+    word-spacing: 4px;
+    padding-left: 11px;
+}
+
+.sec2 .bio-data .right li a {
+    color: white;
+    text-decoration: none;
+}
+
+.progress-sec {
+    margin-top: 56px;
+    margin-left: 30px;
+
+}
+
+.progress-sec .text {
+    margin-bottom: 30px;
+    width: 40%;
+    margin-left: 255px;
+    margin-top: -23px;
+}
+
+.progress-sec .text .h3 {
+    color: white;
+    margin-left: 27px;
+    padding-top: 14px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.progress-sec .text .h3 span {
+    padding-left: 241px;
+}
+
+.progress-sec .text .bar {
+    height: 3px;
+    margin-left: 20px;
+    width: 94%;
+    /* margin-top: 17px; */
+    border-radius: 16px;
+    background-color: white;
+}
+
+.progress-sec .text .bar .fill {
+    background-color: var(--main-color);
+    width: 0%;
+    border-radius: 16px;
+    height: 3px;
+    animation: increase 1.5s forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes increase {
+    50% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+.progress-sec .text .bar .fill-css {
+    background-color: var(--main-color);
+    width: 0%;
+    border-radius: 16px;
+    height: 3px;
+    animation: incss 1.5s forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes incss {
+    50% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+.progress-sec .text .bar .fill-js {
+    background-color: var(--main-color);
+    width: 0%;
+    border-radius: 16px;
+    height: 3px;
+    animation: injs 1.5s forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes injs {
+    50% {
+        width: 0%;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+.progress-sec .text .bar .fill-jq {
+    background-color: var(--main-color);
+    width: 0%;
+    border-radius: 16px;
+    height: 3px;
+    animation: injq 1.5s forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes injq {
+    50% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+/* ////////////////////////////////////sec3.///////////////// */
+.sec3 {
+
+    background-color: #151515;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.sec3 h2 {
+    margin-left: 282px;
+    color: white;
+    font-size: 37px;
+    /* padding-top: 74px; */
+    position: relative;
+    font-family: poppins;
+}
+
+.sec3 h2::before {
+    content: "";
+    height: 4px;
+    width: 13%;
+    background-color: var(--main-color);
+    position: absolute;
+    left: 0px;
+    bottom: -2px;
+}
+
+.sec3 h2::after {
+    content: "";
+    height: 3px;
+    width: 7%;
+    background-color: var(--main-color);
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+}
+
+.sec3 .main {
+    margin-left: 263px;
+    width: 75%;
+    height: 300px;
+    margin-top: 131px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sec3 .main .clean {
+    width: 30%;
+    background-color: #222222;
+    ;
+    margin-top: 29px;
+    height: 224px;
+    margin-left: 3px;
+}
+
+.sec3 .main .time {
+    margin-left: 20px;
+    width: 30%;
+    margin-top: 29px;
+    height: 224px;
+    background-color: #222222;
+}
+
+.sec3 .main .design {
+    width: 30%;
+    margin-left: 20px;
+    margin-top: 29px;
+    height: 224px;
+    background-color: #222222;
+}
+
+.sec3 .main .clean i,
+.sec3 .main .time i,
+.sec3 .main .design i {
+    color: var(--main-color);
+    padding: 20px 105px;
+    font-size: 33px;
+}
+
+.sec3 .main .clean h3,
+.sec3 .main .time h3,
+.sec3 .main .design h3 {
+    color: white;
+    font-family: 'poppins';
+    font-size: 24px;
+    text-align: center;
+}
+
+.sec3 .main .clean p,
+.sec3 .main .time p,
+.sec3 .main .design p {
+    font-family: poppins;
+    text-align: center;
+    color: white;
+}
+
+/* /////////////////////////sec4////////////// */
+.sec4 {
+
+    background-color: #151515;
+    height: 1000px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.sec4 .container {
+    margin-left: 17rem;
+
+}
+
+.sec4 .container h2 {
+    color: white;
+    font-size: 37px;
+    padding-top: 74px;
+    position: relative;
+    font-family: poppins;
+}
+
+.sec4 h2::before {
+    content: "";
+    height: 4px;
+    width: 13%;
+    background-color: var(--main-color);
+    position: absolute;
+    left: 0px;
+    bottom: -2px;
+}
+
+.sec4 h2::after {
+    content: "";
+    height: 3px;
+    width: 7%;
+    background-color: var(--main-color);
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+}
+
+.sec4 .container h3 {
+    text-align: center;
+    color: var(--main-color);
+    padding-top: 68px;
+    font-size: 20px;
+    font-family: poppins;
+}
+
+.sec4 .container h3 {
+    text-align: center;
+    color: var(--main-color);
+    padding-top: 68px;
+    font-size: 20px;
+    font-family: poppins;
+    text-transform: uppercase;
+}
+
+.sec4 .container h4 {
+    text-align: center;
+    color: white;
+    padding-top: 4px;
+    font-size: 18px;
+    font-family: poppins;
+    text-transform: uppercase;
+}
+
+.sec4 .container .social-icons {
+
+    display: flex;
+    margin-left: 2rem;
+    width: 90%;
+    justify-content: space-evenly;
+}
+
+.sec4 .container .social-icons .whats {
+    width: 33%;
+    margin-left: 8px;
+    margin-top: 20px;
+}
+
+.sec4 .container .social-icons .link {
+    width: 33%;
+    margin-left: 8px;
+    margin-top: 20px;
+}
+
+.sec4 .container .social-icons .fb {
+    width: 33%;
+    margin-left: 8px;
+    margin-top: 20px;
+}
+
+.sec4 .container .social-icons .whats p,
+.sec4 .container .social-icons .fb p,
+.sec4 .container .social-icons .link p {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.sec4 .container .social-icons .whats i,
+.sec4 .container .social-icons .fb i,
+.sec4 .container .social-icons .link i {
+    font-size: 25px;
+    color: var(--main-color);
+    padding-left: 108px;
+}
+
+.sec4 .container .social-icons .whats a,
+.sec4 .container .social-icons .fb a,
+.sec4 .container .social-icons .link a {
+    color: white;
+    padding-left: 68px;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sec4 form .flex input {
+    background-color: #222222;
+    outline: none;
+    width: 43%;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    height: 37px;
+    border-radius: 29px;
+    border: 1px solid white;
+    padding-left: 20px;
+    color: gray;
+    font-family: poppins;
+
+    font-size: 16px;
+}
+
+.sec4 form .flex .full input {
+    background-color: #222222;
+    outline: none;
+    width: 88%;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    height: 37px;
+    border: 1px solid white;
+    border-radius: 29px;
+    padding-left: 20px;
+    color: gray;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.sec4 form .flex textarea {
+    background-color: #222222;
+    outline: none;
+    width: 90%;
+    margin-left: 1rem;
+    /* margin-bottom: 25rem; */
+    height: 100%;
+    border-radius: 29px;
+    padding-left: 20px;
+    color: gray;
+    border: 1px solid white;
+    font-family: poppins;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.sec4 form .flex {
+    margin-top: 4rem;
+}
+
+.sec4 form .flex .button {
+    width: 28%;
+    font-size: 24px;
+    color: white;
+    height: 40px;
+    background-color: var(--main-color);
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-family: poppins;
+    cursor: pointer;
+}
+
+/* //////////////////////media query/////////// */
+@media (min-width: 1366px) {
+    .aside {
+        width: 22%;
+    }
+
+    .aside nav {
+        margin: 94px 67px;
+        letter-spacing: 2px;
+    }
+
+    .aside .logo {
+        margin: 46px 95px;
+    }
+
+    .aside nav ul li a {
+        font-size: 22px;
+    }
+
+    .main-container h1 {
+        margin-left: 337px;
+        font-size: 44px;
+    }
+
+    .main-container h1 span {
+        font-size: 72px;
+
+    }
+
+    .main-container h2 {
+        margin-left: 337px;
+        font-size: 44px;
+    }
+
+    .main-container p {
+        margin-left: 338px;
+        width: 65%;
+        font-size: 23px;
+
+    }
+
+    .main-container button {
+        margin-left: 357px;
+        height: 65px;
+        width: 246px;
+        border-radius: 40px;
+    }
+
+    .main-container button a {
+        text-decoration: none;
+        font-family: poppins;
+        color: white;
+        font-size: 26px;
+    }
+
+    .main-container img {
+        height: 296px;
+        margin-top: -126px;
+        margin-left: 802px;
+    }
+
+    .sec2 h2 {
+        margin-left: 345px;
+        font-size: 37px;
+    }
+
+    .sec2 h3 {
+        margin-left: 340px;
+        font-size: 33px;
+    }
+
+    .sec2 p {
+        margin-left: 342px;
+        font-size: 20px;
+        width: 87%;
+    }
+
+    .sec2 p {
+        margin-left: 342px;
+        font-size: 20px;
+        width: 87%;
+    }
+
+    .sec2 p {
+        margin-left: 342px;
+        font-size: 20px;
+        width: 87%;
+    }
+
+    .sec2 .bio-data .right {
+        margin-left: 83px;
+    }
+
+    .sec2 .bio-data .right {
+        margin-left: 83px;
+        padding-top: 22px;
+    }
+
+    .progress-sec {
+        margin-top: 28px;
+        margin-left: 218px;
+    }
+
+    .progress-sec .text {
+        margin-bottom: 30px;
+        width: 62%;
+        margin-left: 186px;
+        margin-top: -23px;
+    }
+
+    .progress-sec .text .h3 {
+        margin-left: 27px;
+        font-size: 20px;
+    }
+
+    .progress-sec .text .h3 span {
+        padding-left: 70%;
+    }
+
+    .sec2 .bio-data .left {
+        margin-left: 371px;
+
+    }
+
+    .sec2 .bio-data .left li {
+        FONT-SIZE: 20PX;
+        padding-left: 11px;
+        padding-top: 15px;
+    }
+
+    .sec2 .bio-data .right {
+        margin-left: 91px;
+        padding-top: 28px;
+    }
+
+    .sec2 .bio-data .right li {
+        FONT-SIZE: 20PX;
+        padding-left: 11px;
+        padding-top: 11px;
+    }
+
+    .sec3 h2 {
+        margin-left: 353px;
+        font-size: 43px;
+    }
+
+    .sec3 .main {
+        margin-left: 305px;
+        width: 77%;
+    }
+
+    .sec3 .main .clean i,
+    .sec3 .main .time i,
+    .sec3 .main .design i {
+        color: var(--main-color);
+        padding: 20px 150px;
+        font-size: 33px;
+    }
+
+    .sec4 .container {
+        margin-left: 21rem;
+    }
+
+    .sec4 .container .social-icons .whats a,
+    .sec4 .container .social-icons .fb a,
+    .sec4 .container .social-icons .link a {
+        padding-left: 60px;
+        font-size: 21px;
+    }
+
+    .sec4 .container .social-icons {
+        display: flex;
+        margin-left: 4rem;
+        width: 90%;
+        justify-content: space-evenly;
+    }
+
+    .sec4 .container .social-icons .whats p,
+    .sec4 .container .social-icons .fb p,
+    .sec4 .container .social-icons .link p {
+        margin-left: -52px;
+        font-size: 19px;
+    }
+
+    .sec4 .container h4 {
+        letter-spacing: 1px;
+        word-spacing: 4px;
+    }
+
+    .sec4 form .flex {
+        margin-top: 2rem;
+        margin-left: 3rem;
+    }
+
+    .sec4 form .flex input {
+        height: 45px;
+        letter-spacing: 2px;
+        font-size: 17px;
+    }
+
+    .sec4 form .flex input {
+        height: 45px;
+        letter-spacing: 2px;
+        font-size: 17px;
+    }
+
+    .sec4 form .flex .button {
+        height: 45px;
+        margin-top: 1rem;
+
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    .aside {
+        width: 25%;
+    }
+
+    .aside .logo {
+        margin: 30px 48px;
+    }
+
+    .aside nav {
+        margin: 109px 55px;
+    }
+
+    .aside nav ul li a {
+        font-size: 18px;
+    }
+
+    .main-container h1 {
+        font-size: 33px;
+        /* margin-left: 255px; */
+    }
+
+    .main-container h1 span {
+        font-size: 51px;
+
+    }
+
+    .main-container h2 {
+        font-size: 33px;
+        margin-left: 255px;
+    }
+
+    .main-container p {
+        margin-left: 255px;
+        width: 400px;
+        font-family: poppins;
+    }
+
+    .main-container button {
+        margin-left: 268px;
+        height: 43px;
+        width: 162px;
+    }
+
+    .main-container button a {
+        font-size: 19px;
+    }
+
+    .main-container img {
+        margin-left: 511px;
+    }
+
+    .sec2 .bio-data .left {
+        margin-left: 314px;
+    }
+
+    .sec2 .bio-data .right {
+        margin-left: 9px;
+        padding-top: 13px;
+    }
+
+    .progress-sec {
+        margin-top: 30px;
+        margin-left: 28px;
+    }
+
+    .progress-sec .text {
+        margin-bottom: 30px;
+        width: 62%;
+        margin-left: 256px;
+        margin-top: -23px;
+    }
+
+    .sec3 .main {
+        margin-left: 234px;
+    }
+
+    .sec3 .main .clean i,
+    .sec3 .main .time i,
+    .sec3 .main .design i {
+        padding: 20px 89px;
+    }
+
+    .sec3 .main .clean h3,
+    .sec3 .main .time h3,
+    .sec3 .main .design h3 {
+        font-size: 22px;
+    }
+
+    .sec3 .main .clean p,
+    .sec3 .main .time p,
+    .sec3 .main .design p {
+        font-size: 14px;
+    }
+
+    .sec4 form .flex {
+        margin-top: 2rem;
+    }
+
+    .sec4 .container .social-icons {
+        margin-left: -1rem;
+    }
+
+    .sec4 .container .social-icons .whats i,
+    .sec4 .container .social-icons .fb i,
+    .sec4 .container .social-icons .link i {
+        padding-left: 113px;
+    }
+
+    .sec4 .container .social-icons .whats p,
+    .sec4 .container .social-icons .fb p,
+    .sec4 .container .social-icons .link p {
+        padding-left: 77px;
+    }
+
+    .sec4 .container .social-icons .whats a,
+    .sec4 .container .social-icons .fb a,
+    .sec4 .container .social-icons .link a {
+        padding-left: 63px;
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    .aside .logo {
+        margin: 30px 24px;
+    }
+
+    .aside nav {
+        margin: 65px 28px;
+    }
+
+    .main-container h1 {
+        /* margin-left: 229px; */
+        padding-top: 125px;
+    }
+
+    .main-container h2 {
+        margin-left: 229px;
+    }
+
+    .main-container p {
+        margin-left: 229px;
+        padding-top: 18px;
+        width: 400px;
+    }
+
+    .main-container button {
+        margin-left: 234px;
+    }
+
+    .main-container img {
+        height: 254px;
+        margin-top: -117px;
+        margin-left: 355px;
+    }
+
+    .sec2 h2,
+    .sec2 h3,
+    .sec2 p {
+        margin-left: 235px;
+    }
+
+    .sec2 .bio-data .left {
+        margin-left: 242px;
+    }
+
+    .progress-sec {
+        margin-left: -28px;
+    }
+
+    .sec3 h2 {
+        margin-left: 231px;
+    }
+
+    .sec3 .main {
+        margin-left: 198px;
+    }
+
+    .sec3 .main .clean i,
+    .sec3 .main .time i,
+    .sec3 .main .design i {
+        padding: 20px 74px;
+    }
+
+    .sec3 .main .clean h3,
+    .sec3 .main .time h3,
+    .sec3 .main .design h3 {
+        font-size: 20px;
+    }
+
+    .sec3 .main .clean p,
+    .sec3 .main .time p,
+    .sec3 .main .design p {
+        font-size: 13px;
+    }
+
+    .sec4 .container h3 {
+        margin-left: -4rem;
+    }
+
+    .sec4 .container h4 {
+        margin-left: -4rem;
+    }
+
+    .sec4 .container .social-icons .whats i,
+    .sec4 .container .social-icons .fb i,
+    .sec4 .container .social-icons .link i {
+        padding-left: 86px;
+    }
+
+    .sec4 .container .social-icons .whats p,
+    .sec4 .container .social-icons .fb p,
+    .sec4 .container .social-icons .link p {
+        padding-left: 40px;
+    }
+
+    .sec4 .container .social-icons .whats a,
+    .sec4 .container .social-icons .fb a,
+    .sec4 .container .social-icons .link a {
+        padding-left: 31px;
+    }
+    .sec4 form .flex .button {
+        width: 31%;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+    .sec4 form .flex textarea {
+        width: 94%;
+        margin-left: 1rem;
+    }
+    .sec4 form .flex .full input {
+      width: 93%;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+    }
+    .sec4 form .flex input {
+        width: 45%;
+        margin-left: 1rem;
+    }
+    .sec4 form .flex {
+        margin-left: -4rem;
+    }
+}
+
+
+@media screen and (max-width:700px) {
+
+    .aside .logo {
+        margin: 30px 24px;
+    }
+
+    .aside nav {
+        margin: 65px 28px;
+    }
+
+    .main-container h1 {
+        margin-left: 199px;
+        padding-top: 125px;
+    }
+
+    .main-container h2 {
+        margin-left: 201px;
+    }
+
+    .main-container p {
+        margin-left: 201px;
+        padding-top: 18px;
+        width: 400px;
+    }
+
+    .main-container button {
+        margin-left: 210px;
+    }
+
+    .main-container img {
+        height: 254px;
+        margin-top: -117px;
+        margin-left: 335px;
+    }
+
+    .sec2 h2,
+    .sec2 h3,
+    .sec2 p {
+        margin-left: 199px;
+    }
+
+    .sec2 .bio-data .left {
+        margin-left: 188px;
+    }
+
+    .sec2 .bio-data .left li {
+        font-size: 14px;
+    }
+
+    .progress-sec {
+        margin-left: -65px;
+    }
+
+    .sec3 .main {
+        margin-left: 198px;
+        flex-direction: column;
+    }
+
+    .sec3 .main .clean {
+        width: 82%;
+        background-color: #222222;
+        margin-top: 167px;
+        height: 200px;
+        margin-left: 19px;
+        padding-bottom: 35px;
+    }
+
+    .sec3 .main .time {
+        margin-left: 20px;
+        width: 82%;
+        margin-top: 10px;
+        padding-bottom: 35px;
+        height: 224px;
+        background-color: #222222;
+    }
+
+    .sec3 .main .design {
+        width: 82%;
+        margin-left: 20px;
+        margin-top: 10px;
+        height: 224px;
+        padding-bottom: 35px;
+        background-color: #222222;
+    }
+
+    .sec3 .main .clean i,
+    .sec3 .main .time i,
+    .sec3 .main .design i {
+        padding: 20px 196px;
+        font-size: 27px;
+    }
+
+    .sec3 .main .clean h3,
+    .sec3 .main .time h3,
+    .sec3 .main .design h3 {
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+
+    .sec3 .main .clean p,
+    .sec3 .main .time p,
+    .sec3 .main .design p {
+        font-size: 15px;
+    }
+    .sec4 {
+        height: 1200px;
+    }
+    .sec4 .container {
+        margin-left: 12rem;
+    }
+    .sec4 .container h3 {
+        margin-left: 0rem;
+    }
+    .sec4 .container h4 {
+        margin-left: 0rem;
+    }
+    .sec4 .container .social-icons {
+        margin-left: 10.1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .sec4 form .flex {
+        margin-left: 0rem;
+    }
+    .sec4 form .flex .button {
+        width: 40%;
+        margin-left: 10rem;
+        padding-right: 7px;
+        margin-top: 2rem;
+    }
+    .sec4 .container .social-icons .whats i, .sec4 .container .social-icons .fb i, .sec4 .container .social-icons .link i {
+        padding-left: 68px;
+    }
+    .sec4 .container .social-icons .whats p, .sec4 .container .social-icons .fb p, .sec4 .container .social-icons .link p {
+        padding-left: 11px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .aside {
+   display: none;
+        }
+    
+    .active .aside{
+        width: 100%;
+        /* max-width: 125%; */
+        height: 548px;
+        position: fixed;
+    }
+    #logo {
+        display: block;
+    }
+
+    .main-container h1 {
+        margin-left: 30px;
+        display: block;
+        color: white;
+        font-size: 19px;
+        padding-top: 61px;
+        font-family: poppins;
+    }
+
+    .main-container h2 {
+        margin-left: 32px;
+        color: white;
+        /* padding-top: 18px; */
+        font-family: poppins;
+    }
+
+    .main-container h1 span {
+        padding-left: 13px;
+
+    }
+
+    .main-container p {
+        margin-left: 24px;
+        font-size: 16px;
+        padding-top: 40px;
+        width: 405px;
+    }
+
+    .main-container button {
+        margin-left: 27px;
+    }
+    .main-container #openmenu {
+        display: block;
+        position: fixed;
+        right: 25px;
+        font-size: 25px;
+        top: 42px;
+    }
+
+    .main-container img {
+        height: 254px;
+        margin-top: 2px;
+        margin-left: 36px;
+    }
+
+    .sec2 {
+
+        height: 968px;
+    }
+
+    .progress-sec {
+        margin-top: 56px;
+        margin-left: -180px;
+    }
+
+    .progress-sec .text {
+        margin-bottom: 30px;
+        width: 58%;
+        margin-left: 214px;
+        margin-top: -23px;
+    }
+
+    .progress-sec .text .h3 span {
+        padding-left: 206px;
+    }
+
+    .sec2 h2 {
+        margin-left: 172px;
+    }
+
+    .sec2 h2::before {
+        width: 13%;
+        left: -51px;
+        bottom: 20px;
+    }
+
+    .sec2 h2::after {
+        width: 13%;
+        left: 191px;
+        bottom: 21px;
+    }
+
+
+
+    .sec2 h3 {
+        margin-left: 21px;
+        font-size: 25px;
+    }
+
+    .sec2 p {
+        margin-left: 47px;
+        font-size: 18px;
+        width: 79%;
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    .sec2 .bio-data {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .sec2 .bio-data .left {
+        margin-left: 160px;
+        padding-top: 33px;
+    }
+
+    .sec2 .bio-data .left {
+        margin-left: 128px;
+        padding-top: 33px;
+    }
+
+    .sec2 .bio-data .left li {
+        line-height: 38px;
+    }
+
+    .sec2 .bio-data .right {
+        margin-left: 112px;
+        padding-top: 13px;
+    }
+
+    .sec2 .bio-data .right li {
+        line-height: 38px;
+        padding-left: 0px;
+    }
+
+    .sec3 h2 {
+        margin-left: 172px;
+        padding-top: 37px;
+    }
+
+    .sec3 h2::before {
+        width: 13%;
+        left: -51px;
+        bottom: 20px;
+    }
+
+    .sec3 h2::after {
+        width: 13%;
+        left: 173px;
+        bottom: 21px;
+    }
+
+    .sec3 .main .clean {
+        margin-left: -102px;
+    }
+
+    .sec3 .main .clean i,
+    .sec3 .main .time i,
+    .sec3 .main .design i {
+        padding: 20px 140px;
+        font-size: 27px;
+    }
+
+    .sec3 .main .time {
+        margin-left: -100px;
+    }
+
+    .sec3 .main .design {
+        margin-left: -100px;
+    }
+    .sec3 {
+        background-color: #151515;
+        height: 700px;
+        width: 100%;
+        overflow: hidden;
+    }
+    .sec4 h2 {
+        margin-left: 172px;
+        padding-top: 37px;
+    }
+    .sec4 h2::before {
+        width: 13%;
+        left: -51px;
+        bottom: 20px;
+    }
+
+    .sec4 h2::after {
+        width: 13%;
+        left: 173px;
+        bottom: 21px;
+    }
+    .sec4 .container {
+        margin-left: -2rem;
+    }
+    .sec4 .container h3 {
+        margin-left: 3.5rem;
+        margin-top: -3rem;
+    }
+    .sec4 .container h4 {
+        margin-left: 3.5rem;
+    }
+    .sec4 .container .social-icons {
+        margin-left: 12.1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .sec4 .container .social-icons .whats i, .sec4 .container .social-icons .fb i, .sec4 .container .social-icons .link i {
+    padding-left: 74px;
+}
+.sec4 .container .social-icons .whats p, .sec4 .container .social-icons .fb p, .sec4 .container .social-icons .link p {
+    padding-left: 11px;
+}
+.sec4 form .flex {
+    margin-left: 2rem;
+}
+.sec4 {
+    height: 1109px;
+}
+}
+
+@media screen and (max-width:420px) {
+    .sec3 {
+        background-color: #151515;
+        height: 700px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .main-container p {
+        margin-left: 24px;
+        font-size: 16px;
+        padding-top: 40px;
+        width: 332px;
+    }
+
+    .sec2 h2 {
+        margin-left: 113px;
+    }
+
+    .sec2 .bio-data .left {
+        margin: auto;
+        padding-top: 33px;
+    }
+
+    .sec2 .bio-data .right {
+        margin: auto;
+        padding-top: 13px;
+    }
+
+    .progress-sec .text .h3 span {
+        padding-left: 147px;
+    }
+
+    .sec3 h2 {
+        margin-left: 112px;
+    }
+
+    .sec3 .main .clean {
+        /* margin: auto; */
+        margin-left: -145px;
+        width: 100%;
+        margin-top: 145px;
+    }
+    .sec3 h2 {
+
+            margin-left: 106px;
+        
+    }
+    .sec3 .main {
+        margin-left: 11.8rem;
+        flex-direction: column;
+    }
+    .sec3 .main .clean p,
+    .sec3 .main .time p,
+    .sec3 .main .design p {
+        font-size: 13px;
+    }
+
+    .sec3 .main .time {
+        margin-left: -145px;
+        width: 100%;
+    }
+
+    .sec3 .main .design {
+        width: 100%;
+        margin-left: -145px;
+    }
+
+    .sec3 .main .clean i,
+    .sec3 .main .time i,
+    .sec3 .main .design i {
+        padding: 20px 133px;
+        font-size: 27px;
+    }
+
+    .progress-sec {
+        margin-top: 19px;
+        margin-left: -208px;
+    }
+    .sec4 .container {
+            margin-left: -5.7rem;
+        }
+    
+    .sec4 h2 {
+        margin-left: 164px;
+    }
+    .sec4 h2::after {
+        left: 231px;
+    }
+    .sec4 .container h3 {
+        margin-left: 6.5rem;
+    }
+    .sec4 .container h4 {
+        margin-left: 6.5rem;
+    }
+    .sec4 .container .social-icons .whats a, .sec4 .container .social-icons .fb a, .sec4 .container .social-icons .link a {
+        padding-left: 29px;
+    }
+    .sec4 .container .social-icons .whats p, .sec4 .container .social-icons .fb p, .sec4 .container .social-icons .link p {
+        padding-left: 32px;
+    }
+    .sec4 .container .social-icons {
+        margin-left: 11.1rem;
+    }
+    .sec4 form .flex {
+        margin-left: 5.4rem;
+    }
+    .sec4 form .flex .button {
+        width: 40%;
+        margin-left: 7rem;
+        padding-right: 17px;
+        margin-top: 2rem;
+        border: 1px solid var(--main-color);
+    
+    }
+}
+
+
+@media screen and (max-width:300px) {
+    .main-container h1 span {
+        padding-left: 0px;
+    }
+
+    .main-container p {
+        width: 274px;
+    }
+
+    .main-container img {
+
+        display: none;
+    }
+
+    .sec2 h2 {
+        margin-left: 61px;
+    }
+
+    .sec2 h3 {
+        margin-left: 18px;
+        font-size: 26px;
+    }
+
+    .sec2 {
+
+        height: 1000px;
+    }
+
+    .sec2 p {
+        margin-left: 18px;
+        font-size: 20px;
+        width: 85%;
+    }
+
+    .sec2 .bio-data {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .sec2 .bio-data .left {
+        margin-left: 36px;
+        font-size: 16px;
+        padding-top: 25px;
+    }
+
+    .sec2 .bio-data .right {
+        margin-left: 3px;
+        color: white;
+        font-family: poppins;
+        padding-top: 20px;
+    }
+
+    .progress-sec {
+        margin-left: -248px;
+    }
+
+    .progress-sec .text {
+        margin-bottom: 30px;
+        width: 50%;
+        margin-left: 255px;
+        margin-top: -23px;
+    }
+
+    .progress-sec .text .h3 span {
+        padding-left: 93px;
+    }
+
+    .sec3 h2 {
+        margin-left: 75px;
+    }
+
+    .sec3 .main .clean i,
+    .sec3 .main .time i,
+    .sec3 .main .design i {
+        padding: 20px 97px;
+        font-size: 18px;
+    }
+
+    .sec3 .main .clean h3,
+    .sec3 .main .time h3,
+    .sec3 .main .design h3 {
+        font-size: 17px;
+        letter-spacing: 0px;
+    }
+
+    .sec3 .main .clean {
+        width: 100%;
+        background-color: #222222;
+        margin-top: -26px;
+        height: 200px;
+        margin-left: -160px;
+        padding-bottom: 12px;
+    }
+
+    .sec3 .main .design {
+        margin-left: -161px;
+        width: 100%;
+        height: 200px;
+        padding-bottom: 0px;
+    }
+
+    .sec3 .main .time {
+        margin-left: -161px;
+        width: 100%;
+        padding-bottom: 0px;
+    }
+
+    .sec3 .main .clean p,
+    .sec3 .main .time p,
+    .sec3 .main .design p {
+        font-size: 12px;
+        /* letter-spacing: 3px; */
+    }
+}
